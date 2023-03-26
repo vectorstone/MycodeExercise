@@ -17,7 +17,7 @@ class Base{
     {
         System.out.println("base");
     }
-    public void method(int i){
+    public  void method(int i){
         System.out.println("base : " + i);
     }
 }
@@ -28,8 +28,8 @@ class Sub extends Base{
     {
         System.out.println("sub");
     }
-    @Override
-    public void method(int j){
+
+    public  void method(int j){
         System.out.println("sub : " + j);
     }
 }
