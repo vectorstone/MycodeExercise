@@ -1,4 +1,4 @@
-package com.atguigu.homework;
+package com.atguigu.homework1;
 
 public class MyDate {
     private int year;
