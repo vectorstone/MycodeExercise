@@ -13,6 +13,8 @@ public class HomeWork12 {
         String str = "1、 hello 2. world 3. java 4.String 5. haha 6、HELLO";
         str = str.toLowerCase();
         // System.out.println(str);
+
+        //将非字母的东西全部删除掉
         str = str.replaceAll("[^a-zA-Z]","");
         // System.out.println(str);
         char[] chars = str.toCharArray();

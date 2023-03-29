@@ -9,7 +9,12 @@ package com.atguigu.homework1;
 public class HomeWork13 {
     public static void main(String[] args) {
         String str = "1.hello2.world3.java4.string";
+
         str = str.replaceAll("1.","");
+
+       /* //或者可以从下标2开始截取到最后,也能去掉1.
+        str = str.substring(2);*/
+
         System.out.println(str);
         String[] x = str.split("\\d\\.");
         // System.out.println(Arrays.toString(x));

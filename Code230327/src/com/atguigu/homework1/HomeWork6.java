@@ -24,8 +24,8 @@ public class HomeWork6 {
         int index = 0;
         for (int i = 0; i < arr.length; i++) {
             if(arr[i].length() <= 5){
-                arr1[index] = arr[i];
-                index++;
+                arr1[index++] = arr[i];
+                // index++;
             }
         }
         System.out.println("删除后的数组为:"+Arrays.toString(arr1));

@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at com.atguigu.tools.SystemDemo.main(SystemDemo.java:55)

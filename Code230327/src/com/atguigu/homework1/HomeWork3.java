@@ -6,7 +6,6 @@ import java.util.Scanner;
  * @Description:
  * @Author: Gavin
  * @Date: 3/27/2023 6:42 PM
- *
  * * 键盘录入一个大字符串，再录入一个小字符串。
  * * 统计小字符串在大字符串中出现的次数。
  */

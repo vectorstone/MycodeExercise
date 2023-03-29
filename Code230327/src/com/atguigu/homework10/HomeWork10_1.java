@@ -24,7 +24,7 @@ public class HomeWork10_1 {
 
     public void conversion(String s, int n, Handleable obj) {
         String m = obj.handleString(s);
-        System.out.println("保留"+n+"位小数,四舍五入后:"+m);
+        System.out.println("取整后:"+m);
 
     }
 }
