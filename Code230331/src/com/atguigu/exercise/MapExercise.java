@@ -1,6 +1,8 @@
 package com.atguigu.exercise;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -23,6 +25,9 @@ public class MapExercise {
         System.out.println(map);
         System.out.println(remove);
         // System.out.println(ss);
+        String s = "11";
+        s.hashCode();
+        List<String> ssss = new ArrayList<>(-1);
 
 
     }

@@ -21,6 +21,7 @@ public class HomeWork2 {
         Set<Map.Entry<String,String>> entryset = album.entrySet();
         for (Map.Entry<String, String> s : entryset) {
             System.out.println(s.getKey()+" = "+s.getValue());
+            // System.out.println(s);
         }
     }
 }
