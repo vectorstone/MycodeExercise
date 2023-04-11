@@ -7,6 +7,6 @@ package com.atguigu.exercse;
  */
 public class Test {
     public static void main(String[] args) {
-        String sql = getSql(Movie.class)
+
     }
 }

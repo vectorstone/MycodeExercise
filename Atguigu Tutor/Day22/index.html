@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let a = 5;
+
+    function sum(a, b) {
+        return a + b;
+    }
+
+    // 函数式编程: 将一个函数当做另一个函数的参数来使用!
+    function calculate(x, y, fn) {
+        let m = fn(x, y);
+        alert(m);
+    }
+
+    calculate(2, 5, sum);
+
+
+    calculate(2, 3, function (a, b) {
+        return a * b;
+    });
+
+
+
+</script>
+</body>
+</html>

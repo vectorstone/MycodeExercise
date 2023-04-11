@@ -1,4 +1,4 @@
-package tiku.exercise.singleton230406;
+package tiku.exercise.singleton10;
 
 /**
  * @Description:
